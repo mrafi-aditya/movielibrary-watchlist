@@ -2,6 +2,12 @@
 
 A web-programming coursework application for keeping track of watched movies and series. A React interface communicates with a PHP JSON API backed by MySQL.
 
+## Project background
+
+I built this watch-list application for a university web programming course.
+
+**Previous repository name:** `PWEB_Ujian`.
+
 ## What it does
 
 Lists, adds, edits, and deletes watch-list entries. Each entry records a title, episode or season, genre, and last-watched date. The frontend provides a form dialog and refreshes the list after changes.
@@ -25,8 +31,8 @@ The root and `frontend/` also contain package manifests, but the application sta
 Install PHP with the MySQLi extension, a local MySQL-compatible database, and Node.js/npm compatible with the supplied React toolchain.
 
 ```sh
-git clone https://github.com/mrafi-aditya/PWEB_Ujian.git
-cd PWEB_Ujian
+git clone https://github.com/mrafi-aditya/movielibrary-watchlist.git
+cd movielibrary-watchlist
 ```
 
 1. Start the local database service, for example MySQL in XAMPP.
